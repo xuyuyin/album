@@ -6,7 +6,8 @@ const fileType = require('file-type');
 const shortid = require('shortid');
 const RouterBase = require('../../../common/routerbase');
 const config = require('../../../config');
-const cos = require('../../../services/cos');
+// const cos = require('../../../services/cos');
+const cos = require('qcloud_Cos_v5/sdk/cos');
 
 class ImageUploader extends RouterBase {
     constructor() {
